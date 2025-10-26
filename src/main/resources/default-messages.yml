@@ -1,0 +1,65 @@
+specify-target-from-console:
+  value: "Console must specify a player name!"
+  comments:
+    - "CONFIG COMMENT PLACEHOLDER LINE"
+    - "ANOTHER CONFIG COMMENT PLACEHOLDER LINE"
+no-targets-in-line-of-sight:
+  value: "No players or tamed animals found in your line of sight!"
+  comments:
+    - ""
+    - "CONFIG COMMENT PLACEHOLDER LINE"
+    - "ANOTHER CONFIG COMMENT PLACEHOLDER LINE"
+target-is-untamed-animal:
+  value: "Target must be a player or their tamed animal, not a wild animal!"
+  comments:
+    - ""
+    - "CONFIG COMMENT PLACEHOLDER LINE"
+    - "ANOTHER CONFIG COMMENT PLACEHOLDER LINE"
+invalid-target-selected:
+  value: "Target must be a player or their tamed animal (e.g., a tamed wolf or cat)!"
+  comments:
+    - ""
+    - "CONFIG COMMENT PLACEHOLDER LINE"
+    - "ANOTHER CONFIG COMMENT PLACEHOLDER LINE"
+unknown-target-selected:
+  value: "Unknown player specified!"
+  comments:
+    - ""
+    - "CONFIG COMMENT PLACEHOLDER LINE"
+    - "ANOTHER CONFIG COMMENT PLACEHOLDER LINE"
+kick-request-acknowledged:
+  value: "Getting claim information..."
+  comments:
+    - ""
+    - "CONFIG COMMENT PLACEHOLDER LINE"
+    - "ANOTHER CONFIG COMMENT PLACEHOLDER LINE"
+click-kick-started:
+  value: "ClickKick started!"
+  comments:
+    - ""
+    - "CONFIG COMMENT PLACEHOLDER LINE"
+    - "ANOTHER CONFIG COMMENT PLACEHOLDER LINE"
+click-kick-stopped:
+  value: "ClickKick stopped!"
+  comments:
+    - ""
+    - "CONFIG COMMENT PLACEHOLDER LINE"
+    - "ANOTHER CONFIG COMMENT PLACEHOLDER LINE"
+reload-request-acknowledged:
+  value: "Reload request acknowledged!"
+  comments:
+    - ""
+    - "CONFIG COMMENT PLACEHOLDER LINE"
+    - "ANOTHER CONFIG COMMENT PLACEHOLDER LINE"
+reload-complete:
+  value: "Reload complete!"
+  comments:
+    - ""
+    - "CONFIG COMMENT PLACEHOLDER LINE"
+    - "ANOTHER CONFIG COMMENT PLACEHOLDER LINE"
+reload-failed:
+  value: "Reload failed!"
+  comments:
+    - ""
+    - "CONFIG COMMENT PLACEHOLDER LINE"
+    - "ANOTHER CONFIG COMMENT PLACEHOLDER LINE"

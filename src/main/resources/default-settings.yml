@@ -1,0 +1,40 @@
+click-kick-duration:
+  value: 10000
+  comments:
+    - "ClickKick mode lets players kick players or their tamed animals by left- or right-clicking."
+    - "Duration (in milliseconds) before ClickKick mode auto-disables after no use."
+    - "Default: 10000 (10 seconds)"
+kick-animals-to-owners:
+  value: true
+  comments:
+    - ""
+    - "If true, kicks tamed animals to their owner’s location (if online)."
+    - "If false or owner is offline, uses configured location or world spawn."
+    - "Default: true"
+animals-must-be-sitting:
+  value: true
+  comments:
+    - ""
+    - "If true, only sitting tamed animals (e.g., wolves, cats, parrots) can be kicked."
+    - "If false, all tamed animals with an owner can be kicked."
+    - "Default: true"
+kick-to-world-spawn:
+  value: true
+  comments:
+    - ""
+    - "If true, kicks players or their tamed animals to their current world's spawn point."
+    - "If false, uses configured locations or random teleport (if enabled)."
+    - "Default: true"
+kick-to-location-enabled:
+  value: false
+  comments:
+    - ""
+    - "If true, kicks players or their tamed animals to the default location below."
+    - "If false, uses world spawn, world-specific locations, or random teleport (if enabled)."
+    - "Default: false"
+kick-to-location:
+  value: ""
+  comments:
+    - ""
+    - "Default location for kicked players or their tamed animals when kick-to-location-enabled is true."
+    - "Defaults to the first world's spawn point on config generation."

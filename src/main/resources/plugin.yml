@@ -1,0 +1,21 @@
+name: "KickFromClaim"
+main: "dev.themrjezza.kickfromclaim.KickFromClaim"
+version: "4.0.0.0"
+api-version: "1.21"
+description: "Kick unwanted visitors from your claims!"
+depend: [ "GriefPrevention" ]
+softdepend: [ "LuckPerms" ]
+load: POSTWORLD
+commands:
+  kickfromclaim:
+    description: "Kick unwanted visitors from your claims!"
+    usage: "/<command> [Player]"
+    aliases: [ "kfc", "claimkick" ]
+  clickkickfromclaim:
+    description: "Toggle On/Off Punch Kick Mode!"
+    usage: "/<command>"
+    aliases: [ "claimclickkick", "clickkick", "petkick", "kickpet" ]
+  reloadkickfromclaim:
+    description: "Reload settings and language files!"
+    usage: "/<command>"
+    aliases: [ "kfcreload", "kickfromclaimreload", "reloadkfc", "rkfc", "kfcr" ]
