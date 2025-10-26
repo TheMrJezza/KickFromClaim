@@ -63,3 +63,27 @@ reload-failed:
     - ""
     - "CONFIG COMMENT PLACEHOLDER LINE"
     - "ANOTHER CONFIG COMMENT PLACEHOLDER LINE"
+config-change-request-acknowledged:
+  value: "Saving Config..."
+  comments:
+    - ""
+    - "CONFIG COMMENT PLACEHOLDER LINE"
+    - "ANOTHER CONFIG COMMENT PLACEHOLDER LINE"
+config-change-complete:
+  value: "Config saved!"
+  comments:
+    - ""
+    - "CONFIG COMMENT PLACEHOLDER LINE"
+    - "ANOTHER CONFIG COMMENT PLACEHOLDER LINE"
+config-change-failed:
+  value: "Config save failed!"
+  comments:
+    - ""
+    - "CONFIG COMMENT PLACEHOLDER LINE"
+    - "ANOTHER CONFIG COMMENT PLACEHOLDER LINE"
+player-only-command:
+  value: "This command can only be run by a player!"
+  comments:
+    - ""
+    - "CONFIG COMMENT PLACEHOLDER LINE"
+    - "ANOTHER CONFIG COMMENT PLACEHOLDER LINE"

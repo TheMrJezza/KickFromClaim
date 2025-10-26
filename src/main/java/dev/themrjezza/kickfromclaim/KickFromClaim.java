@@ -5,6 +5,7 @@ import dev.themrjezza.kickfromclaim.api.KickFromClaimConfig;
 import dev.themrjezza.kickfromclaim.commands.ClickKickFromClaimCommand;
 import dev.themrjezza.kickfromclaim.commands.KickFromClaimCommand;
 import dev.themrjezza.kickfromclaim.commands.ReloadKickFromClaimCommand;
+import dev.themrjezza.kickfromclaim.commands.SetClaimKickPoint;
 import dev.themrjezza.kickfromclaim.config.KickFromClaimSettings;
 import dev.themrjezza.kickfromclaim.config.MessageCache;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -24,6 +25,7 @@ public class KickFromClaim extends JavaPlugin {
         new KickFromClaimCommand(this, messageCache, getConfiguration());
         new ClickKickFromClaimCommand(this, messageCache, getClickKickManager());
         new ReloadKickFromClaimCommand(this, messageCache, getConfiguration());
+        new SetClaimKickPoint(this, messageCache, getConfiguration());
     }
 
     public ClickKickManager getClickKickManager() {

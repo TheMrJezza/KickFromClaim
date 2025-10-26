@@ -24,7 +24,11 @@ public class MessageCache extends DataFolderYamlFile {
         CLICK_KICK_STOPPED("click-kick-stopped"),
         RELOAD_REQUEST_ACKNOWLEDGED("reload-request-acknowledged"),
         RELOAD_COMPLETE("reload-complete"),
-        RELOAD_FAILED("reload-failed");
+        RELOAD_FAILED("reload-failed"),
+        CONFIG_CHANGE_REQUEST_ACKNOWLEDGED("config-change-request-acknowledged"),
+        CONFIG_CHANGE_COMPLETE("config-change-complete"),
+        CONFIG_CHANGE_FAILED("config-change-failed"),
+        PLAYER_ONLY_COMMAND("player-only-command");
 
         private final String configKey;
 

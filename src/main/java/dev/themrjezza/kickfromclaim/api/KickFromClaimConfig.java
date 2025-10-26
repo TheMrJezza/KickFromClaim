@@ -31,7 +31,7 @@ public interface KickFromClaimConfig extends Reloadable {
     @Nullable
     Location getKickToLocation();
 
-    CompletableFuture<Boolean> setKickToLocation(@NotNull World world, @Nullable Location location);
+    CompletableFuture<Boolean> setKickToLocation(@Nullable Location location);
 
     @Nullable
     Location resolveConfiguredKickLocation(@NotNull World world);

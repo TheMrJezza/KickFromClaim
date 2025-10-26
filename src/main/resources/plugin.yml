@@ -19,3 +19,7 @@ commands:
     description: "Reload settings and language files!"
     usage: "/<command>"
     aliases: [ "kfcreload", "kickfromclaimreload", "reloadkfc", "rkfc", "kfcr" ]
+  setclaimkickpoint:
+    description: "Set the point where players will be kicked to!"
+    usage: "/<command>"
+    aliases: [ "setkickpoint", "setkickpointclaim", "setkickpoint" ]

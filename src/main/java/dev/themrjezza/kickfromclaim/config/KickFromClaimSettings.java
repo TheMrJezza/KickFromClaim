@@ -98,7 +98,7 @@ public class KickFromClaimSettings extends DataFolderYamlFile implements KickFro
     }
 
     @Override
-    public CompletableFuture<Boolean> setKickToLocation(@NonNull World world, @Nullable Location location) {
+    public CompletableFuture<Boolean> setKickToLocation(@Nullable Location location) {
         set("kick-to-location", location);
         return saveAsync();
     }
