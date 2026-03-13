@@ -23,6 +23,7 @@ dependencies {
     implementation("com.github.GriefPrevention:GriefPrevention:16.18.5")
     compileOnly("org.spigotmc:spigot-api:1.21.10-R0.1-SNAPSHOT")
     compileOnly("net.luckperms:api:5.4")
+    implementation("org.apache.pdfbox:pdfbox:3.0.3")
 }
 
 java {
